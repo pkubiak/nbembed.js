@@ -11,10 +11,10 @@ This makes it possible to execute scripts (like interactive plots) nested in the
 
 1. Include recent version of the script into your website:
     ```html
-    <script src="sadsad"></script>
+    <script src="https://pkubiak.github.io/nbembed.js/dist/nbembed.js"></script>
     ```
 
-2. sad
+2. Insert `notebook` tag in place where you would like to render your notebook. Place url to your notebook raw `.ipynb` file as `src` attribute:
     ```html
     <notebook src="<notebook-url>"></notebook>
     ```
@@ -23,16 +23,17 @@ This makes it possible to execute scripts (like interactive plots) nested in the
     ```html
     <notebook src="..." config="<config-options>"></notebook>
     ```
-    Allowed options are described in the next section.  Multiple options can be provided by separating them using `,` (comma).
+    Allowed options are described in the the [next section](#-options).  Multiple options can be provided by separating them using `,` (comma).
 
 ## 🖼&#xFE0F; MINIMAL EXAMPLE:
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="../dist/nbembed.js"></script>
+    <script src="https://pkubiak.github.io/nbembed.js/dist/nbembed.js"></script>
 </head>
 
 <body>
