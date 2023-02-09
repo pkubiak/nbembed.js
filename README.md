@@ -74,11 +74,11 @@ Live version can be previewed here: https://pawelkubiak.me/nbembed.js/docs/examp
 
 | option | description |
 |--------|-------------|
-| `hide-prompts` | ... |
-| `hide-stdout` | ... |
-| `hide-stderr` | ... |
-| `hide-code` | ... |
-| `hide-markdown` | ... |
+| `hide-prompts` | Hide cells numbering (ie. `In[..]`, `Out[..]`) |
+| `hide-stdout` | Hide cells standard output |
+| `hide-stderr` | Hide cells errors output |
+| `hide-code` | Hide cells source code |
+| `hide-markdown` | Hide markdown cells |
 
 
 ## 💻 COMPATIBILITY:
@@ -117,4 +117,7 @@ Live version can be previewed here: https://pawelkubiak.me/nbembed.js/docs/examp
 - [] z jakimi prawami dostepu odpala sie kod wewnątrz sendbox'a? czy ma prawa usera? czy anonimowe?
 - [ ] Collapsible sections
 - [ ] Update renderer script dependencies
+- [ ] Allow disabling JavaScript
+- [ ] Add example with different options
+- [ ] Allow dynamically creating notebooks
 -->
