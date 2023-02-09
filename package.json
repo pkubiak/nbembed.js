@@ -1,0 +1,22 @@
+{
+  "name": "nbembed.js",
+  "version": "0.0.1",
+  "description": "TBD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkubiak/nbembed.js.git"
+  },
+  "author": "Paweł Kubiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pkubiak/nbembed.js/issues"
+  },
+  "homepage": "https://github.com/pkubiak/nbembed.js#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
