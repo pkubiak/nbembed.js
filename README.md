@@ -87,13 +87,16 @@ Live version can be previewed here: https://pawelkubiak.me/nbembed.js/docs/examp
 <tr><th>Browser</th><th>Tested Versions</th></tr>
 <tr><td colspan="2"><b>Desktop</b></td></tr>
 <tr><td>Google Chrome</td><td>✔&#xfe0f; 109.0.5414.120</td></tr>
-<tr><td>Microsoft Edge</td><td>✔&#xfe0f; 109.0.1518.78</td></tr>
+<tr><td>Microsoft Edge</td><td>✔&#xfe0f; 80.0 and newer</td></tr>
 <tr><td>Mozilla Firefox</td><td>✔&#xfe0f; 107.0</td></tr>
-<tr><td>Safari</td><td>?</td></tr>
+<tr><td>Safari on MacOS</td><td>✔&#xfe0f; 16</td></tr>
+<tr><td>Internet Explorer</td><td>❌ 11</td></tr>
+
 <tr><td colspan="2"><b>Mobile</b></td></tr>
-<tr><td>Chrome for Android</td><td>108.0.5195.136</td></tr>
-<tr><td>Safari for iOS</td><td>?</td></tr>
-<tr><td>Samsung Internet</td><td>?</td></tr>
+<tr><td>Chrome for Android</td><td>✔&#xfe0f; 108.0.5195.136</td></tr>
+<tr><td>Safari for iOS</td><td>✔&#xfe0f; 16.0</td></tr>
+<tr><td>Samsung Internet</td><td>✔&#xfe0f; 17.0.9.34</td></tr>
+<tr><td>Mozilla Firefox</td><td>✔&#xfe0f; 108.1.1</td></tr>
 </table>
 
 
