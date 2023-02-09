@@ -2,12 +2,10 @@
 
 Self-contained JavaScript script for embedding Jupyter Notebooks into websites.
 
-## 🕵️‍♀️ Security 
-Package use `Iframe Sandboxing` technique to separate notebook content from outer website.
-This makes it possible to execute scripts (like interactive plots) nested in the notebook without security risks.
+<!--## Features:
+- -->
 
-
-## ⛑&#xFE0F; USAGE:
+## ⛑&#xFE0F; USAGE
 
 1. Include recent version of the script into your website:
     ```html
@@ -19,7 +17,7 @@ This makes it possible to execute scripts (like interactive plots) nested in the
     ```html
     <notebook src="<notebook-url>"></notebook>
     ```
-    Check common usage scenarios at the end of the section.
+    Check common usage scenarios at the end of the section for more info.
     
 
 3. (Optional) You can adjust rendering properties using `config` attribute:
@@ -45,7 +43,7 @@ This makes it possible to execute scripts (like interactive plots) nested in the
     TBA
 </details>
 
-## 🖼&#xFE0F; MINIMAL EXAMPLE:
+## 🖼&#xFE0F; MINIMAL EXAMPLE
 
 Below you can check minimal code demonstrating `nbembed.js` usage:
 
@@ -70,18 +68,23 @@ Below you can check minimal code demonstrating `nbembed.js` usage:
 Live version can be previewed here: https://pawelkubiak.me/nbembed.js/docs/example.html
 
 
-## 🔧 OPTIONS:
+## 🔧 OPTIONS
 
 | option | description |
 |--------|-------------|
 | `hide-prompts` | Hide cells numbering (ie. `In[..]`, `Out[..]`) |
-| `hide-stdout` | Hide cells standard output |
+| `hide-stdout` | Hide cells standard output (eg. text displayed with `print(..)`) |
 | `hide-stderr` | Hide cells errors output |
 | `hide-code` | Hide cells source code |
 | `hide-markdown` | Hide markdown cells |
 
 
-## 💻 COMPATIBILITY:
+## 🕵️‍♀️ SECURITY
+Package use `Iframe Sandboxing` technique to separate notebook content from outer website.
+This makes it possible to execute scripts (like interactive plots) nested in the notebook without security risks.
+
+
+## 💻 COMPATIBILITY
 
 <table>
 <tr><th>Browser</th><th>Tested Versions</th></tr>
@@ -120,4 +123,6 @@ Live version can be previewed here: https://pawelkubiak.me/nbembed.js/docs/examp
 - [ ] Allow disabling JavaScript
 - [ ] Add example with different options
 - [ ] Allow dynamically creating notebooks
+- [ ] Move renderer styles to repo
+- [ ] Describe nbembed.js features in README.md
 -->
